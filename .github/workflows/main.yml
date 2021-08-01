@@ -1,0 +1,19 @@
+on: push
+name: 🚀 Website Deployment
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 👨‍💻 Get Latest Code
+      uses: actions/checkout@v2
+
+    - name: 🔨 Build Stage
+      run: composer install && npm install
+
+    - name: 📶 Upload Files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: 89.34.96.142
+        username: jdf
+        password: ${{ secrets.FTP_PASSWORD }}
