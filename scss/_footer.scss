@@ -1,12 +1,9 @@
 .footer {
-  &-socials {
-    a {
-      color: $white;
-      transform: rotate(-90deg);
+  a {
+    color: $white;
 
-      &:hover {
-        color: $yellow;
-      }
+    &:hover {
+      color: $yellow;
     }
   }
 }

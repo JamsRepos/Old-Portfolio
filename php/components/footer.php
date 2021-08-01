@@ -11,7 +11,9 @@
             </div>
 
             <div class="col-12 col-xl-4">
-                <h5 class="text-uppercase font-weight-bold mb-0 text-center"><?= $full_name ?></h5>
+                <a data-scroll href="#" class="text-decoration-none">
+                    <h5 class="text-uppercase font-weight-bold mb-0 text-center"><?= $full_name ?></h5>
+                </a>
             </div>
 
             <div class="col-4 footer-links flex-row list-unstyled d-none d-xl-flex">
