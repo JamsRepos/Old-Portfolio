@@ -1,0 +1,58 @@
+.hero-banner {
+    &-image {
+        background-color: $yellow;
+        left: 50%;
+        transform: translateX(-50%) rotate(45deg);
+        width: 300px;
+        height: 300px;
+
+        @include media-breakpoint-down(sm) {
+            width: 225px;
+            height: 225px;
+        }
+
+        &:before {
+            content: "";
+            position: absolute;
+            width: 115%;
+            height: 115%;
+            top: -25px;
+            left: 30px;
+            background: no-repeat center/115% url("../img/portrait.png");
+            transform: rotate(-45deg);
+        }
+    }
+
+    &-buttons {
+        color: $white;
+
+        &-primary {
+            color: $secondary;
+            background-color: $yellow;
+
+            &:hover {
+                border-color: $yellow;
+                background-color: $secondary;
+            }
+        }
+
+        &-secondary {
+            background-color: $yellow;
+        }
+    }
+
+    &-socials {
+        right: -50px;
+        top: 50%;
+        transform: translateY(-50%) rotate(90deg);
+
+        a {
+            color: $white;
+            transform: rotate(-90deg);
+
+            &:hover {
+                color: $yellow;
+            }
+        }
+    }
+}

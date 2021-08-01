@@ -1,0 +1,24 @@
+// Setting some custom colours
+$yellow:    #EBCB8B;
+$primary:   #3B4252;
+$secondary: #2E3440;
+$black:     #000;
+$white: #ffffffcc;
+
+// Font properties
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+$font-family-base: 'Source Code Pro', monospace;
+
+
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-color: rgba(255, 255, 255, 0.8);
+$body-bg:#2E3440;
+$border-radius: 2rem;
+$success: #7952b3;
+$dark: $primary;
+$box-shadow: 0 0.313rem 1rem rgba($black, .08);

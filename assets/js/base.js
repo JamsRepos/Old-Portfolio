@@ -1,0 +1,19 @@
+import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
+
+var scroll = new SmoothScroll('a[href*="#"]', {
+
+    // Selectors
+    topOnEmptyHash: true, // Scroll to the top of the page for links with href="#"
+
+    // Speed & Duration
+    speed: 500, // Integer. Amount of time in milliseconds it should take to scroll 1000px
+    speedAsDuration: false, // If true, use speed as the total duration of the scroll animation
+    durationMax: null, // Integer. The maximum amount of time the scroll animation should take
+    durationMin: null, // Integer. The minimum amount of time the scroll animation should take
+    clip: true, // If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
+
+    // History
+    updateURL: false, // Update the URL on scroll
+    popstate: true, // Animate scrolling with the forward/backward browser buttons (requires updateURL to be true)
+
+});

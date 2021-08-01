@@ -1,0 +1,21 @@
+<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script type="module" src="<?= $base_url ?>assets/js/base.js"></script>
+
+<footer class="footer bg-dark shadow py-4 mt-5">
+    <div class="container">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-4 footer-socials text-uppercase font-weight-bold d-none d-xl-block">
+                <?php include "includes/socials.php"; ?>
+            </div>
+
+            <div class="col-12 col-xl-4">
+                <h5 class="text-uppercase font-weight-bold mb-0 text-center"><?= $full_name ?></h5>
+            </div>
+
+            <div class="col-4 footer-links flex-row list-unstyled d-none d-xl-flex">
+                <?php include "includes/links.php" ?>
+            </div>
+        </div>
+    </div>
+</footer>

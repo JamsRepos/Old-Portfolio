@@ -1,0 +1,14 @@
+.nav-link {
+  color: $white !important;
+
+  &:hover {
+    color: $yellow !important;
+  }
+}
+
+.navbar-nav {
+  .nav-item {
+    padding-left: $spacer;
+    padding-right: $spacer;
+  }
+}

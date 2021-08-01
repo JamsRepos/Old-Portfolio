@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6 {
+    &:before, &:after {
+        color: $yellow;
+        text-transform: lowercase;
+        font-weight: $font-weight-normal;
+    }
+}
+
+h1 {
+    &:before {
+        content: "<h1>";
+    }
+
+    &:after {
+        content: "</h1>";
+    }
+}
+
+h2 {
+    &:before {
+        content: "<h2>";
+    }
+
+    &:after {
+        content: "</h2>";
+    }
+}
+
+h3 {
+    &:before {
+        content: "<h3>";
+    }
+
+    &:after {
+        content: "</h3>";
+    }
+}
+
+h4 {
+    &:before {
+        content: "<h4>";
+    }
+
+    &:after {
+        content: "</h4>";
+    }
+}
+
+h5 {
+    &:before {
+        content: "<h5>";
+    }
+
+    &:after {
+        content: "</h5>";
+    }
+}
+
+h6 {
+    &:before {
+        content: "<h6>";
+    }
+
+    &:after {
+        content: "</h6>";
+    }
+}
