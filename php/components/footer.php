@@ -1,5 +1,6 @@
-<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
 <script type="module" src="<?= $base_url ?>assets/js/base.js"></script>
 
 <footer class="footer bg-dark shadow py-4 mt-5">

@@ -1,5 +1,3 @@
-import "../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js";
-
 var scroll = new SmoothScroll('a[href*="#"]', {
 
     // Selectors
