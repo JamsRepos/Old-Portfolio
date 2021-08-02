@@ -9,7 +9,7 @@
 
                 <p class="font-weight-bold"><?= $meta_description ?></p>
 
-                <p class="my-4">A <?= calculateAge("28/02/1998") ?> year old Developer from the United Kingdom, who has a passion for creating online communites and business which thrive and possess a one of a kind experience for the end user.</p>
+                <p class="my-4">A <?= calculateAge("28/02/1998") ?> year old Developer from the United Kingdom, who has a passion for creating online communites and businesses which thrive and possess a one of a kind experience for the end user.</p>
 
                 <div class="hero-banner-buttons d-flex text-uppercase">
                     <a href="#" class="hero-banner-buttons-primary btn btn-lg shadow mr-3 font-weight-bold">Enquire</a>
