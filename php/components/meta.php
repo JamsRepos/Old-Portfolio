@@ -25,7 +25,7 @@
         _paq.push(['enableLinkTracking']);
         _paq.push(['enableHeartBeatTimer']);
         (function() {
-            var u="//stats.jdf.gg/";
+            var u="https://stats.jdf.gg/";
             _paq.push(['setTrackerUrl', u+'matomo.php']);
             _paq.push(['setSiteId', '1']);
             var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
