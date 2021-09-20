@@ -1,0 +1,5 @@
+// Anti-aliasing for crisper looking text on compatible browsers
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }

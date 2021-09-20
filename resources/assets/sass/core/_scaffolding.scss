@@ -1,0 +1,8 @@
+// Ensure that the footer always gets pinned, at minimum, to the bottom of the viewport.
+body {
+    min-height: 100vh;
+
+    main {
+        transition: filter 0.3s ease-in-out;
+    }
+}
