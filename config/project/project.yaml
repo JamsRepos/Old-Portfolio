@@ -1,0 +1,22 @@
+dateModified: 1632251603
+email:
+  fromEmail: lubricantjam@pm.me
+  fromName: JDF.GG
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    713bea6a-abb5-4484-b5eb-959d38412ab0: Common # Common
+    e53c970f-ed56-47e1-96a0-3dda647ec7d9: JDF.GG # JDF.GG
+    e3111181-4916-45ab-a207-e957eb08d895: JDF.GG # JDF.GG
+system:
+  edition: solo
+  live: true
+  name: JDF.GG
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
