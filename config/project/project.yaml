@@ -1,14 +1,23 @@
-dateModified: 1634239163
+dateModified: 1634248020
 email:
   fromEmail: lubricantjam@pm.me
   fromName: JDF.GG
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2aca6222-666c-4808-9040-7edb70adf348: 'Show Portrait' # Show Portrait
     2ec415fb-ec08-4367-a878-9b3c2a90d9a2: 'Full Name' # Full Name
+    6cc1691c-5ab0-44a2-bc9b-875c4e8b03ce: 'Hero Title' # Hero Title
+    12f9861d-3bfa-4229-baf2-56e678f793a1: 'Hero Subtitle' # Hero Subtitle
+    34b8ab34-bc2c-40ac-9c67-2ab75223aac7: Description # Description
+    35ee7e17-f0b1-49d9-922e-931308ab99a2: 'Page Hero' # Page Hero
+    76a3448d-528f-4c02-8068-b2a308c39378: 'Page Hero' # Page Hero
     713bea6a-abb5-4484-b5eb-959d38412ab0: Common # Common
     6094d928-e987-4f6f-8376-7b6d4ce4c990: 'Main Menu' # Main Menu
+    074357a9-3568-4cb1-adc4-f07f5abb80d5: Portfolio # Portfolio
     45314284-71c8-4d9c-a877-a94c540e2b7c: 'Global Information' # Global Information
+    a45a67cd-434f-4af3-ae12-bf586c35b10a: Skills # Skills
+    a79dfb9e-c492-4af5-8730-f31193d0aa80: General # General
     b59a6ea1-61a4-4561-82b7-c6d4ffd016f9: Homepage # Homepage
     be4e21d9-8cd2-41e7-9946-db046bf245fc: Homepage # Homepage
     e53c970f-ed56-47e1-96a0-3dda647ec7d9: JDF.GG # JDF.GG

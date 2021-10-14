@@ -1,5 +1,5 @@
 fieldLayouts:
-  d030bd95-5649-4ea7-8641-fae0e3a7064a:
+  f770075c-e94c-4ce3-ae74-e08f55b3dfb9:
     tabs:
       -
         elements:
@@ -10,8 +10,8 @@ fieldLayouts:
             class: null
             disabled: false
             id: null
-            instructions: ''
-            label: ''
+            instructions: null
+            label: null
             max: null
             min: null
             name: null
@@ -23,25 +23,18 @@ fieldLayouts:
             step: null
             tip: null
             title: null
-            type: craft\fieldlayoutelements\EntryTitleField
-            warning: null
-            width: 100
-          -
-            fieldUid: 35ee7e17-f0b1-49d9-922e-931308ab99a2 # Page Hero
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
+            type: craft\fieldlayoutelements\AssetTitleField
             warning: null
             width: 100
         name: Content
         sortOrder: 1
-handle: homepage
-hasTitleField: false
-name: Homepage
-section: be4e21d9-8cd2-41e7-9946-db046bf245fc # Homepage
-sortOrder: 1
-titleFormat: '{section.name|raw}'
+handle: skills
+hasUrls: true
+name: Skills
+settings:
+  path: assets/images/
+sortOrder: 2
 titleTranslationKeyFormat: null
-titleTranslationMethod: site
+titleTranslationMethod: null
+type: craft\volumes\Local
+url: $ASSET_BASE_URL

@@ -1,0 +1,38 @@
+{% set pageHero = entry.pageHero[0] ?? null %}
+{% set showPortrait = pageHero.showPortrait ?? false %}
+{% set heroTitle = pageHero.heroTitle ?? '' %}
+{% set heroSubtitle = pageHero.heroSubtitle ?? '' %}
+{% set description = pageHero.description ?? '' %}
+
+<div class="py-20">
+    <div class="container">
+        <div class="grid lg:grid-cols-2 gap-5 place-items-center items-center">
+            {% if showPortrait %}
+                <div class="portrait relative h-72 w-72 bg-yellow rounded-3xl transform lg:-translate-x-1/4 rotate-45 overflow-hidden mb-20 lg:mb-0
+                before:empty-content before:absolute before:w-11/10 before:h-11/10 before:-top-1 before:left-7 before:transform before:-rotate-45"></div>
+            {% endif %}
+
+            {% if heroTitle or heroSubtitle or description %}
+                <div class="font-primary text-white flex flex-col gap-1">
+                    {% if heroTitle %}
+                        <h1 class="text-4xl font-extrabold uppercase
+                        content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h1>" tw-content-after="</h1>">{{ heroTitle }}</h1>
+                    {% endif %}
+
+                    {% if heroSubtitle %}
+                        <span class="font-secondary font-bold opacity-75">
+                            {{ heroSubtitle }}
+                        </span>
+                    {% endif %}
+
+                    {% if description %}
+                        <span class="font-secondary opacity-75">
+                            {{ description }}
+                        </span>
+                    {% endif %}
+
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

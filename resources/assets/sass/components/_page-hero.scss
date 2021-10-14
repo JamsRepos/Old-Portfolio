@@ -1,0 +1,5 @@
+.portrait {
+    &::before {
+        background: no-repeat center/115% url("/assets/images/portrait.png");
+    }
+}

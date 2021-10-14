@@ -5,9 +5,9 @@ fieldLayouts:
         elements:
           -
             fieldUid: 2ec415fb-ec08-4367-a878-9b3c2a90d9a2 # Full Name
-            instructions: null
-            label: null
-            required: false
+            instructions: ''
+            label: ''
+            required: ''
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null

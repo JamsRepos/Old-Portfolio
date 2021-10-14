@@ -28,7 +28,14 @@ module.exports = {
       primary: ['JetBrains Mono'],
       secondary: ['Source Code Pro']
     },
-    extend: {},
+    extend: {
+      width: {
+        '11/10': '110%'
+      },
+      height: {
+        '11/10': '110%'
+      }
+    },
   },
   variants: {
     extend: {},
