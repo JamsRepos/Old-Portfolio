@@ -33,5 +33,10 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('tailwindcss-pseudo-elements')({
+      contentUtilities: true,
+      emptyContent: true,
+    }),
+  ],
 }
