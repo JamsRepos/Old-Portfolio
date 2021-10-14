@@ -1,4 +1,8 @@
-on: push
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
 name: 🚀 Website Deployment
 jobs:
   web-deploy:
