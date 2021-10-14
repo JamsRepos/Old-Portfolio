@@ -1,0 +1,28 @@
+handle: mainMenu
+instructions: 'Manages the main navigation on all pages.'
+maxNodes: ''
+name: 'Main Menu'
+permissions:
+  craft\elements\Asset:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Category:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Entry:
+    enabled: '1'
+    permissions: '*'
+  craft\elements\Tag:
+    enabled: ''
+    permissions: '*'
+  custom:
+    enabled: '1'
+  verbb\navigation\nodetypes\PassiveType:
+    enabled: '1'
+propagateNodes: false
+siteSettings:
+  e53c970f-ed56-47e1-96a0-3dda647ec7d9: null # JDF.GG
+sortOrder: 1
+structure:
+  maxLevels: null
+  uid: 971ffb0f-aef3-48b4-b348-6be8b5147c48

@@ -1,13 +1,37 @@
-dateModified: 1632251603
+dateModified: 1634239163
 email:
   fromEmail: lubricantjam@pm.me
   fromName: JDF.GG
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    2ec415fb-ec08-4367-a878-9b3c2a90d9a2: 'Full Name' # Full Name
     713bea6a-abb5-4484-b5eb-959d38412ab0: Common # Common
+    6094d928-e987-4f6f-8376-7b6d4ce4c990: 'Main Menu' # Main Menu
+    45314284-71c8-4d9c-a877-a94c540e2b7c: 'Global Information' # Global Information
+    b59a6ea1-61a4-4561-82b7-c6d4ffd016f9: Homepage # Homepage
+    be4e21d9-8cd2-41e7-9946-db046bf245fc: Homepage # Homepage
     e53c970f-ed56-47e1-96a0-3dda647ec7d9: JDF.GG # JDF.GG
     e3111181-4916-45ab-a207-e957eb08d895: JDF.GG # JDF.GG
+    f2146acb-9f63-4455-b09a-196eb45a967a: Globals # Globals
+plugins:
+  colour-swatches:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.4.2
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  navigation:
+    edition: standard
+    enabled: true
+    licenseKey: C1ZUJIJYTS69SKB24HUEETZ4
+    schemaVersion: 1.0.21
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
 system:
   edition: solo
   live: true

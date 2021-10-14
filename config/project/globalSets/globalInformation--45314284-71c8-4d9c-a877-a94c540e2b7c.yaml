@@ -1,0 +1,19 @@
+fieldLayouts:
+  23f8a38f-3dc7-43c2-9337-202e4ee2b894:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2ec415fb-ec08-4367-a878-9b3c2a90d9a2 # Full Name
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: globalInformation
+name: 'Global Information'
+sortOrder: 1
