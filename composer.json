@@ -3,6 +3,7 @@
     "craftcms/cms": "^3.6.4",
     "craftcms/redactor": "2.8.8",
     "percipioglobal/craft-colour-swatches": "1.4.2",
+    "sebastianlenz/linkfield": "1.0.25",
     "vaersaagod/matrixmate": "1.2.7",
     "verbb/navigation": "1.4.21",
     "vlucas/phpdotenv": "^3.4.0"

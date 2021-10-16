@@ -3,6 +3,8 @@
 {% set heroTitle = pageHero.heroTitle ?? '' %}
 {% set heroSubtitle = pageHero.heroSubtitle ?? '' %}
 {% set description = pageHero.description ?? '' %}
+{% set yellowCta = pageHero.yellowCtaButton ?? '' %}
+{% set whiteCta = pageHero.whiteCtaButton ?? '' %}
 
 <div class="py-20">
     <div class="container">
@@ -31,6 +33,21 @@
                         </span>
                     {% endif %}
 
+                    {% if yellowCta or whiteCta %}
+                        <div class="flex font-secondary uppercase font-bold text-lg gap-5 my-5">
+                            {{ yellowCta.getLink({
+                                class: 'inline-block bg-yellow hover:bg-transparent text-grey hover:text-white rounded p-2 border border-yellow transition',
+                                target: yellowCta.target,
+                                text: yellowCta.text,
+                            }) }}
+
+                            {{ whiteCta.getLink({
+                                class: 'inline-block bg-transparent hover:bg-white text-white hover:text-grey rounded p-2 border border-white transition',
+                                target: whiteCta.target,
+                                text: whiteCta.text,
+                            }) }}
+                        </div>
+                    {% endif %}
                 </div>
             {% endif %}
         </div>

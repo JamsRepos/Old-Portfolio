@@ -1,4 +1,4 @@
-dateModified: 1634248020
+dateModified: 1634405178
 email:
   fromEmail: lubricantjam@pm.me
   fromName: JDF.GG
@@ -12,6 +12,8 @@ meta:
     34b8ab34-bc2c-40ac-9c67-2ab75223aac7: Description # Description
     35ee7e17-f0b1-49d9-922e-931308ab99a2: 'Page Hero' # Page Hero
     76a3448d-528f-4c02-8068-b2a308c39378: 'Page Hero' # Page Hero
+    94e35eaa-0387-4a84-ba12-051cab6d895e: 'White CTA Button' # White CTA Button
+    412f7c9b-03cc-44ee-9e3e-4e4ae24cde13: 'Yellow CTA Button' # Yellow CTA Button
     713bea6a-abb5-4484-b5eb-959d38412ab0: Common # Common
     6094d928-e987-4f6f-8376-7b6d4ce4c990: 'Main Menu' # Main Menu
     074357a9-3568-4cb1-adc4-f07f5abb80d5: Portfolio # Portfolio
@@ -41,6 +43,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
