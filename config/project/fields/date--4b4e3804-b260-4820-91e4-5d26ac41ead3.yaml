@@ -1,0 +1,17 @@
+columnSuffix: fypekszx
+contentColumnType: datetime
+fieldGroup: 61f89291-f8dd-475c-8e09-9c8906651db0 # Portfolio
+handle: date
+instructions: 'Set the date of when the project was completed.'
+name: Date
+searchable: false
+settings:
+  max: null
+  min: null
+  minuteIncrement: '30'
+  showDate: true
+  showTime: false
+  showTimeZone: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Date

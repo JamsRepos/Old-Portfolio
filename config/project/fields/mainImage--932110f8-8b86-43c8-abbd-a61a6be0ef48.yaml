@@ -10,21 +10,20 @@ settings:
   allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:a45a67cd-434f-4af3-ae12-bf586c35b10a' # Skills
+  defaultUploadLocationSource: 'volume:a79dfb9e-c492-4af5-8730-f31193d0aa80' # General
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
   previewMode: full
   restrictFiles: '1'
   selectionLabel: 'Add an Image'
-  showSiteMenu: false
+  showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
   singleUploadLocationSource: 'volume:a79dfb9e-c492-4af5-8730-f31193d0aa80' # General
   singleUploadLocationSubpath: ''
   source: null
-  sources:
-    - 'volume:a45a67cd-434f-4af3-ae12-bf586c35b10a' # Skills
+  sources: '*'
   targetSiteId: null
   useSingleFolder: false
   validateRelatedElements: false

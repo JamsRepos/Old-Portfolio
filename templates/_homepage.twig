@@ -4,15 +4,27 @@
 
     {{ include('components/global/_page-hero') }}
 
-    {% set skillsEntry = craft.entries({
+    {% set featuredSkills = entry.featuredSkills ?? null %}
+    {% if featuredSkills|length >= 1 %}
+        {{ include('components/global/_card-section', {
+            title: 'Skills',
+            subtitle: 'Areas of Expertise',
+            skillCardQuery: featuredSkills,
+        }) }}
+    {% endif %}
+
+    {% set portfolioEntry = craft.entries({
         with: ['mainImage'],
-        section: 'skills',
+        section: 'portfolio',
+        orderBy: 'date DESC',
         limit: 5,
     }) %}
-    {{ include('components/global/_card-section', {
-        title: 'Skills',
-        subtitle: 'Areas of Expertise',
-        skillCardQuery: skillsEntry,
-    }) }}
+    {% if portfolioEntry|length >= 1 %}
+        {{ include('components/global/_card-section', {
+            title: 'Portfolio',
+            subtitle: 'My Previous Projects',
+            portfolioCardQuery: portfolioEntry,
+        }) }}
+    {% endif %}
 
 {% endblock %}

@@ -1,0 +1,37 @@
+{% set image = image ?? null %}
+{% set title = title ?? '' %}
+{% set body = body ?? '' %}
+{% set date = date ?? null %}
+{% set languages = languages ?? null %}
+
+<div class="flex flex-col lg:flex-row gap-3 lg:gap-5">
+    <img class="h-auto lg:h-52 rounded-3xl" src="{{ image.url }}">
+
+    <div class="project flex flex-col text-white font-secondary">
+        <h5 class="text-2xl font-semibold">
+            {{ title }}
+        </h5>
+
+        {% if date %}
+            <span class="mb-5 lg:mb-auto">
+                {{ date|date('F - Y') }}
+            </span>
+        {% endif %}
+
+        {% if body %}
+            <div class="text-xs lg:border-l-4 lg:border-yellow lg:pl-4">
+                {{ body }}
+            </div>
+        {% endif %}
+
+        {% if languages %}
+            <div class="flex flex-row gap-3 mt-3">
+                {% for language in languages %}
+                    <span class="bg-grey text-yellow text-xs uppercase rounded-3xl px-5 py-1">
+                        {{ language.title }}
+                    </span>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>

@@ -16,11 +16,25 @@
 
     {% if skillCardQuery is defined %}
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
-            {% for card in skillCardQuery %}
+            {% for card in skillCardQuery.all() %}
                 {{ include('components/cards/_skill-card', {
                     image: card.mainImage[0],
                     title: card.title,
                     body: card.body,
+                }) }}
+            {% endfor %}
+        </div>
+    {% endif %}
+
+    {% if portfolioCardQuery is defined %}
+        <div class="grid grid-rows-1 gap-12 lg:gap-6">
+            {% for card in portfolioCardQuery.all() %}
+                {{ include('components/cards/_portfolio-card', {
+                    image: card.mainImage[0],
+                    title: card.title,
+                    body: card.body,
+                    date: card.date,
+                    languages: card.relatedEntries,
                 }) }}
             {% endfor %}
         </div>

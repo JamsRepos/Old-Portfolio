@@ -1,0 +1,17 @@
+.project {
+    p {
+        margin-bottom: 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: theme('colors.yellow');
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}

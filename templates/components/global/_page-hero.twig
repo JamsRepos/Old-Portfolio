@@ -6,16 +6,16 @@
 {% set yellowCta = pageHero.yellowCtaButton ?? '' %}
 {% set whiteCta = pageHero.whiteCtaButton ?? '' %}
 
-<div class="py-20">
+<div class="pt-20 lg:py-20">
     <div class="container">
         <div class="grid lg:grid-cols-2 gap-5 place-items-center items-center">
             {% if showPortrait %}
-                <div class="portrait relative h-72 w-72 bg-yellow rounded-3xl transform lg:-translate-x-1/4 rotate-45 overflow-hidden mb-20 lg:mb-0
+                <div class="portrait relative h-56 w-56 md:h-72 md:w-72 bg-yellow rounded-3xl transform lg:-translate-x-1/4 rotate-45 overflow-hidden mb-20 lg:mb-0
                 before:empty-content before:absolute before:w-11/10 before:h-11/10 before:-top-1 before:left-7 before:transform before:-rotate-45"></div>
             {% endif %}
 
             {% if heroTitle or heroSubtitle or description %}
-                <div class="font-primary text-white flex flex-col gap-1">
+                <div class="flex flex-col font-primary text-white">
                     {% if heroTitle %}
                         <h1 class="text-4xl font-extrabold uppercase
                         content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h1>" tw-content-after="</h1>">{{ heroTitle }}</h1>
@@ -28,7 +28,7 @@
                     {% endif %}
 
                     {% if description %}
-                        <span class="font-secondary">
+                        <span class="font-secondary mt-8">
                             {{ description }}
                         </span>
                     {% endif %}
