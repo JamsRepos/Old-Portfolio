@@ -1,0 +1,19 @@
+columnSuffix: ietskcmg
+contentColumnType: text
+fieldGroup: 713bea6a-abb5-4484-b5eb-959d38412ab0 # Common
+handle: body
+instructions: 'Sets the main text of the entry.'
+name: Body
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

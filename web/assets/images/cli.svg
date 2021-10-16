@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
+  <g id="Group_275" data-name="Group 275">
+    <g id="Group_274" data-name="Group 274">
+      <path id="Path_1200" data-name="Path 1200" d="M49.271,0H5.729A5.736,5.736,0,0,0,0,5.729V49.271A5.736,5.736,0,0,0,5.729,55H49.271A5.736,5.736,0,0,0,55,49.271V5.729A5.736,5.736,0,0,0,49.271,0Zm3.438,49.271a3.442,3.442,0,0,1-3.437,3.438H5.729a3.442,3.442,0,0,1-3.437-3.437V11.458H52.708V49.271Zm0-40.1H2.292V5.729A3.442,3.442,0,0,1,5.729,2.292H49.271a3.442,3.442,0,0,1,3.438,3.437V9.167Z" fill="#fff"></path>
+    </g>
+  </g>
+  <g id="Group_283" data-name="Group 283" transform="translate(9.166 22.921)">
+    <g id="Group_282" data-name="Group 282">
+      <path id="Path_1201" data-name="Path 1201" d="M94.158,220.581l-6.875-6.875a1.146,1.146,0,1,0-1.62,1.62l6.064,6.064-6.064,6.064a1.147,1.147,0,0,0,1.62,1.623l6.875-6.875A1.147,1.147,0,0,0,94.158,220.581Z" transform="translate(-85.328 -213.371)" fill="#fff"></path>
+    </g>
+  </g>
+  <g id="Group_285" data-name="Group 285" transform="translate(20.625 34.375)">
+    <g id="Group_284" data-name="Group 284">
+      <path id="Path_1202" data-name="Path 1202" d="M204.6,320H193.146a1.146,1.146,0,0,0,0,2.292H204.6a1.146,1.146,0,1,0,0-2.292Z" transform="translate(-192 -320)" fill="#fff"></path>
+    </g>
+  </g>
+</svg>

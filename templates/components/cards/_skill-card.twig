@@ -1,0 +1,14 @@
+<div class="bg-grey p-4 rounded-3xl filter drop-shadow-xl text-center">
+    <div class="flex flex-col gap-1">
+        <img class="h-14 mb-6" src="{{ image.url }}">
+
+        <h5 class="text-white font-secondary text-xl font-semibold uppercase
+        content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h3>" tw-content-after="</h3>">{{ title }}</h5>
+
+        {% if body is defined %}
+            <span class="text-white text-xs font-secondary">
+                {{ body }}
+            </span>
+        {% endif %}
+    </div>
+</div>

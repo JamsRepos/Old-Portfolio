@@ -4,4 +4,15 @@
 
     {{ include('components/global/_page-hero') }}
 
+    {% set skillsEntry = craft.entries({
+        with: ['mainImage'],
+        section: 'skills',
+        limit: 5,
+    }) %}
+    {{ include('components/global/_card-section', {
+        title: 'Skills',
+        subtitle: 'Areas of Expertise',
+        skillCardQuery: skillsEntry,
+    }) }}
+
 {% endblock %}

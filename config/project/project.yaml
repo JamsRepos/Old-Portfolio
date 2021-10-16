@@ -1,4 +1,4 @@
-dateModified: 1634405178
+dateModified: 1634408354
 email:
   fromEmail: lubricantjam@pm.me
   fromName: JDF.GG
@@ -6,6 +6,7 @@ email:
 meta:
   __names__:
     2aca6222-666c-4808-9040-7edb70adf348: 'Show Portrait' # Show Portrait
+    2df9990f-fd03-4062-a94e-54bc62219770: Skills # Skills
     2ec415fb-ec08-4367-a878-9b3c2a90d9a2: 'Full Name' # Full Name
     6cc1691c-5ab0-44a2-bc9b-875c4e8b03ce: 'Hero Title' # Hero Title
     12f9861d-3bfa-4229-baf2-56e678f793a1: 'Hero Subtitle' # Hero Subtitle
@@ -15,12 +16,16 @@ meta:
     94e35eaa-0387-4a84-ba12-051cab6d895e: 'White CTA Button' # White CTA Button
     412f7c9b-03cc-44ee-9e3e-4e4ae24cde13: 'Yellow CTA Button' # Yellow CTA Button
     713bea6a-abb5-4484-b5eb-959d38412ab0: Common # Common
+    805b1819-a87b-4382-844b-2c1016f34c01: Skills # Skills
     6094d928-e987-4f6f-8376-7b6d4ce4c990: 'Main Menu' # Main Menu
     074357a9-3568-4cb1-adc4-f07f5abb80d5: Portfolio # Portfolio
+    932110f8-8b86-43c8-abbd-a61a6be0ef48: 'Main Image' # Main Image
     45314284-71c8-4d9c-a877-a94c540e2b7c: 'Global Information' # Global Information
     a45a67cd-434f-4af3-ae12-bf586c35b10a: Skills # Skills
     a79dfb9e-c492-4af5-8730-f31193d0aa80: General # General
+    ae086db1-29c9-490e-8397-2e52dcfdc79e: Body # Body
     b59a6ea1-61a4-4561-82b7-c6d4ffd016f9: Homepage # Homepage
+    bdfac6d7-bcb1-4583-9d67-59978f917570: Skill # Skill
     be4e21d9-8cd2-41e7-9946-db046bf245fc: Homepage # Homepage
     e53c970f-ed56-47e1-96a0-3dda647ec7d9: JDF.GG # JDF.GG
     e3111181-4916-45ab-a207-e957eb08d895: JDF.GG # JDF.GG
