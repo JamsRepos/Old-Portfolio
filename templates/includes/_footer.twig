@@ -1,0 +1,31 @@
+{% set socialLinks = globalInformation.socialLinks ?? null %}
+{% set fullName = globalInformation.fullName ?? 'Portfolio' %}
+
+{% macro socialIcon(link, name) %}
+    <a href="{{ link }}"
+    title="{{ name|title }}"
+    target="_blank"
+    rel="noopener"
+    class="fa fa-{{ name }} hover:text-yellow"></a>
+{% endmacro %}
+
+<footer class="py-6 text-white uppercase font-primary">
+    <div class="container">
+        <div class="grid xl:grid-cols-3 justify-items-center gap-5 xl:gap-0">
+            <div class="flex flex-row items-center gap-5 font-semibold">
+                <span>{{ socialLinks ? 'Follow me on' : 'Get in touch!' }}</span>
+
+                {% if socialLinks %}
+                    {% for icon in socialLinks %}
+                        {{ _self.socialIcon(icon.socialLink, icon.type) }}
+                    {% endfor %}
+                {% endif %}
+            </div>
+
+            <h5 class="text-white font-secondary text-xl font-semibold uppercase
+            content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h5>" tw-content-after="</h5>">{{ fullName }}</h5>
+
+            {{ include('components/navigation/_main-menu') }}
+        </div>
+    </div>
+</footer>

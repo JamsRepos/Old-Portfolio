@@ -1,8 +1,9 @@
 {# Text #}
 {% set title = title ?? '' %}
 {% set subtitle = subtitle ?? '' %}
+{% set wrapperId = wrapperId ?? '' %}
 
-<div class="container bg-grey-light p-10 my-10 rounded-3xl">
+<div id="{{ wrapperId }}" class="container bg-grey-light p-10 my-10 rounded-3xl">
     {% if title %}
         <div class="flex flex-col mb-6 text-center">
             <h3 class="text-white font-secondary text-3xl font-semibold uppercase
@@ -18,6 +19,7 @@
         <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
             {% for card in skillCardQuery.all() %}
                 {{ include('components/cards/_skill-card', {
+                    index: loop.index,
                     image: card.mainImage[0],
                     title: card.title,
                     body: card.body,
@@ -30,6 +32,7 @@
         <div class="grid grid-rows-1 gap-12 lg:gap-6">
             {% for card in portfolioCardQuery.all() %}
                 {{ include('components/cards/_portfolio-card', {
+                    index: loop.index,
                     image: card.mainImage[0],
                     title: card.title,
                     body: card.body,

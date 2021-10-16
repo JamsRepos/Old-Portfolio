@@ -1,0 +1,41 @@
+field: e2e175dc-940c-43a1-81e9-4c7f66b3abcb # Social Links
+fieldLayouts:
+  bf047c47-84c5-4027-ba43-302d454661ae:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: ddce0eb4-c0a8-4fc3-8ca8-955c5b7d239d # Social Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  ddce0eb4-c0a8-4fc3-8ca8-955c5b7d239d: # Social Link
+    columnSuffix: zplbsnhg
+    contentColumnType: text
+    fieldGroup: null
+    handle: socialLink
+    instructions: 'Sets the Link of the Social Account.'
+    name: 'Social Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: github
+name: GitHub
+sortOrder: 1

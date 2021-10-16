@@ -9,6 +9,7 @@
         {{ include('components/global/_card-section', {
             title: 'Skills',
             subtitle: 'Areas of Expertise',
+            wrapperId: 'skills',
             skillCardQuery: featuredSkills,
         }) }}
     {% endif %}
@@ -23,6 +24,7 @@
         {{ include('components/global/_card-section', {
             title: 'Portfolio',
             subtitle: 'My Previous Projects',
+            wrapperId: 'portfolio',
             portfolioCardQuery: portfolioEntry,
         }) }}
     {% endif %}

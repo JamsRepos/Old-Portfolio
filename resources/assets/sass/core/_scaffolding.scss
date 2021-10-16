@@ -6,3 +6,13 @@ body {
         transition: filter 0.3s ease-in-out;
     }
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
