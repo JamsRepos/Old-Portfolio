@@ -1,0 +1,9 @@
+format: webp
+handle: portfolioCardImage
+height: 347
+interlace: none
+mode: crop
+name: 'Portfolio Card Image'
+position: top-center
+quality: null
+width: 688

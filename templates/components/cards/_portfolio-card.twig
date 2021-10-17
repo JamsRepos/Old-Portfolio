@@ -6,7 +6,7 @@
 {% set languages = languages ?? null %}
 
 <div class="flex flex-col lg:flex-row gap-3 lg:gap-5" data-aos="fade-{{ index is odd ? 'left' : 'right' }}">
-    <img class="h-auto lg:h-52 rounded-3xl" src="{{ image.url }}">
+    <img class="h-auto lg:h-52 rounded-3xl" src="{{ image.getUrl('portfolioCardImage') }}">
 
     <div class="project flex flex-col text-white font-secondary">
         <h5 class="text-2xl font-semibold">
