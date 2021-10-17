@@ -1,0 +1,17 @@
+{% set image = image ?? null %}
+{% set title = title ?? '' %}
+{% set body = body ?? '' %}
+
+<div class="bg-grey p-4 rounded-3xl filter drop-shadow-xl text-center" data-aos="zoom-in">
+    <div class="flex flex-col gap-1">
+        <img class="lazyload h-14 mb-6" data-src="{{ image.url }}">
+
+        <h5 class="text-white font-secondary text-xl font-semibold uppercase">{{ title }}</h5>
+
+        {% if body %}
+            <span class="text-white text-xs font-secondary">
+                {{ body }}
+            </span>
+        {% endif %}
+    </div>
+</div>

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: portfolio
+name: Portfolio
+propagationMethod: all
+siteSettings:
+  e53c970f-ed56-47e1-96a0-3dda647ec7d9: # JDF.GG
+    enabledByDefault: true
+    hasUrls: true
+    template: portfolio/_entry
+    uriFormat: 'portfolio/{slug}'
+type: channel

@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en-GB
+name: JDF.GG
+primary: true
+siteGroup: e3111181-4916-45ab-a207-e957eb08d895 # JDF.GG
+sortOrder: 1

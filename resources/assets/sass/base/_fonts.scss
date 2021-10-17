@@ -1,0 +1,274 @@
+
+/* JetBrains Mono */
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-ExtraBold.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-ExtraBoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-BoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-Bold.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-ExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-ExtraLightItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-LightItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-Light.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-Italic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-Medium.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-SemiBold.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-MediumItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-ThinItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-Regular.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-Thin.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('/assets/fonts/jetbrains/JetBrainsMono-SemiBoldItalic.woff2') format('woff2'),
+        url('/assets/fonts/jetbrains/JetBrainsMono-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* SourceCode Pro */
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-Light.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-LightIt.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-LightIt.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-MediumIt.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-MediumIt.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-Medium.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-Semibold.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-SemiboldIt.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-SemiboldIt.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-Regular.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-Bold.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-Black.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-BoldIt.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-BoldIt.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-BlackIt.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-BlackIt.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-It.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-It.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-ExtraLight.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('/assets/fonts/sourcecode/SourceCodePro-ExtraLightIt.woff2') format('woff2'),
+        url('/assets/fonts/sourcecode/SourceCodePro-ExtraLightIt.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}

@@ -1,0 +1,19 @@
+columnSuffix: kyvpuwgv
+contentColumnType: string(80)
+fieldGroup: f2146acb-9f63-4455-b09a-196eb45a967a # Globals
+handle: fullName
+instructions: ''
+name: 'Full Name'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: 20
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: 'James David Finch'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

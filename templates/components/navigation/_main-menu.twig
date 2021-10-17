@@ -1,0 +1,25 @@
+{% set mainMenu = craft.navigation.nodes().handle('mainMenu').all() ?? null %}
+
+{% if mainMenu %}
+    <nav id="navigation-menu" class="">
+        <ul class="flex flex-row items-stretch w-full lg:w-auto">
+            {% for item in mainMenu %}
+                {% set id = item.id %}
+                {% set title = item.title ?? '' %}
+                {% set url = item.url ?? '#' %}
+                {% set classes = item.classes ?? '' %}
+                {% set newWindow = item.newWindow ?? 0 %}
+                {% set attributes = attributes ?? [] %}
+                {% set active = item.active ?? false %}
+
+                {% if title %}
+                    <li class="px-2.5 sm:px-5 font-primary">
+						<a {%- if newWindow %} target="_blank"{% endif %} {%- for attribute in attributes if attributes %} {{ attribute.attribute ~ '="' ~ attribute.value ~ '"' }}{% endfor %} class="text-white hover:text-yellow" href="{{ url }}">
+							{{ title }}
+						</a>
+                    </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+{% endif %}

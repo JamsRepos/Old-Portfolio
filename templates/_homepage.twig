@@ -1,0 +1,34 @@
+{% extends "_layout" %}
+
+{% block content %}
+
+    {{ include('components/global/_page-hero') }}
+
+    {% set featuredSkills = entry.featuredSkills ?? null %}
+    {% if featuredSkills|length >= 1 %}
+        {{ include('components/global/_card-section', {
+            title: 'Skills',
+            subtitle: 'Areas of Expertise',
+            wrapperId: 'skills',
+            skillCardQuery: featuredSkills,
+        }) }}
+    {% endif %}
+
+    {% set portfolioEntry = craft.entries({
+        with: ['mainImage'],
+        section: 'portfolio',
+        orderBy: 'date DESC',
+        limit: 5,
+    }) %}
+    {% if portfolioEntry|length >= 1 %}
+        {{ include('components/global/_card-section', {
+            title: 'Portfolio',
+            subtitle: 'My Previous Projects',
+            wrapperId: 'portfolio',
+            portfolioCardQuery: portfolioEntry,
+        }) }}
+    {% endif %}
+
+    {{ include('components/global/_contact-form') }}
+
+{% endblock %}

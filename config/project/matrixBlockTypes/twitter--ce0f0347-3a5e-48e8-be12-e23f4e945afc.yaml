@@ -1,0 +1,41 @@
+field: e2e175dc-940c-43a1-81e9-4c7f66b3abcb # Social Links
+fieldLayouts:
+  cce25255-38cc-4e20-baf4-0e0c15346f89:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: aab0faa2-0b14-4d45-8618-ea1ee2305e71 # Social Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  aab0faa2-0b14-4d45-8618-ea1ee2305e71: # Social Link
+    columnSuffix: kchqjmaf
+    contentColumnType: text
+    fieldGroup: null
+    handle: socialLink
+    instructions: 'Sets the Link of the Social Account.'
+    name: 'Social Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: twitter
+name: Twitter
+sortOrder: 3

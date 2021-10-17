@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  e53c970f-ed56-47e1-96a0-3dda647ec7d9: # JDF.GG
+    enabledByDefault: true
+    hasUrls: true
+    template: _homepage
+    uriFormat: __home__
+type: single

@@ -1,0 +1,41 @@
+field: e2e175dc-940c-43a1-81e9-4c7f66b3abcb # Social Links
+fieldLayouts:
+  538e19c0-db09-41f2-9b58-729f6feac176:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5a107168-3402-4c40-bd70-d17b79b5ee92 # Social Link
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5a107168-3402-4c40-bd70-d17b79b5ee92: # Social Link
+    columnSuffix: lwhjcswm
+    contentColumnType: text
+    fieldGroup: null
+    handle: socialLink
+    instructions: 'Sets the Link of the Social Account.'
+    name: 'Social Link'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: linkedin
+name: LinkedIn
+sortOrder: 4

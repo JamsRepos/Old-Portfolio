@@ -1,0 +1,22 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 4dbc622d-3fcb-48d2-85bc-004f013c1daf # Homepage
+handle: featuredSkills
+instructions: 'Sets what skills should be displayed on the Homepage.'
+name: 'Featured Skills'
+searchable: false
+settings:
+  allowSelfRelations: false
+  limit: '5'
+  localizeRelations: false
+  selectionLabel: 'Add a Skill'
+  showSiteMenu: false
+  source: null
+  sources:
+    - 'section:2df9990f-fd03-4062-a94e-54bc62219770' # Skills
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Entries

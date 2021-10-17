@@ -1,0 +1,56 @@
+{% set age = globalInformation.date.diff(now).format('%y') ?? '23' %}
+{% set pageHero = entry.pageHero[0] ?? null %}
+{% set showPortrait = pageHero.showPortrait ?? false %}
+{% set heroTitle = pageHero.heroTitle ?? '' %}
+{% set heroSubtitle = pageHero.heroSubtitle ?? '' %}
+{% set description = pageHero.description ?? '' %}
+{% set yellowCta = pageHero.yellowCtaButton ?? '' %}
+{% set whiteCta = pageHero.whiteCtaButton ?? '' %}
+
+<div class="pt-20 lg:py-20">
+    <div class="container">
+        <div class="grid lg:grid-cols-2 gap-5 place-items-center items-center" data-aos="zoom-in">
+            {% if showPortrait %}
+                <div class="portrait relative h-56 w-56 md:h-72 md:w-72 bg-yellow rounded-3xl transform lg:-translate-x-1/4 rotate-45 overflow-hidden mb-20 lg:mb-0
+                before:empty-content before:absolute before:w-11/10 before:h-11/10 before:-top-1 before:left-7 before:transform before:-rotate-45"></div>
+            {% endif %}
+
+            {% if heroTitle or heroSubtitle or description %}
+                <div class="flex flex-col font-primary text-white">
+                    {% if heroTitle %}
+                        <h1 class="text-4xl font-extrabold uppercase
+                        content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h1>" tw-content-after="</h1>">{{ heroTitle }}</h1>
+                    {% endif %}
+
+                    {% if heroSubtitle %}
+                        <span class="font-secondary font-bold">
+                            {{ heroSubtitle }}
+                        </span>
+                    {% endif %}
+
+                    {% if description %}
+                        <span class="font-secondary mt-8">
+                            {{ description|replace('$AGE', age) }}
+                        </span>
+                    {% endif %}
+
+                    {% if yellowCta or whiteCta %}
+                        <div class="flex font-secondary uppercase font-bold text-lg gap-5 my-5">
+                            {{ yellowCta.getLink({
+                                class: 'inline-block bg-yellow hover:bg-transparent text-grey hover:text-white rounded p-2 border border-yellow transition',
+                                target: yellowCta.target,
+                                text: yellowCta.text,
+                            }) }}
+
+                            {{ whiteCta.getLink({
+                                class: 'inline-block bg-transparent hover:bg-white text-white hover:text-grey rounded p-2 border border-white transition',
+                                target: whiteCta.target,
+                                text: whiteCta.text,
+                            }) }}
+                        </div>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+    </div>
+</div>

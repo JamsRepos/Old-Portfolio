@@ -1,0 +1,57 @@
+.project {
+    p {
+        margin-bottom: 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        a {
+            color: theme('colors.yellow');
+
+            &:hover {
+                color: white;
+            }
+        }
+    }
+}
+
+.carousel-dots {
+    li {
+        font-size: 0;
+        border-radius: 100%;
+        border: 1px solid theme('colors.white');
+        width: 10px;
+        height: 10px;
+        margin: 0 2px;
+
+        button {
+            background-color: transparent;
+            width: 10px;
+            height: 10px;
+            border: 0;
+        }
+
+        &.slick-active {
+            background-color: theme('colors.white');
+        }
+
+        @screen md {
+            width: 13px;
+            height: 13px;
+            margin: 0 4px;
+
+            button {
+                width: 13px;
+                height: 13px;
+            }
+        }
+    }
+}
+
+.carousel-filter {
+    &.active-filter span,
+    &:hover span {
+        width: 100%;
+    }
+}

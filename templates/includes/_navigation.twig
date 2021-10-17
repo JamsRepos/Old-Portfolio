@@ -1,0 +1,15 @@
+{% set fullName = globalInformation.fullName ?? 'Portfolio' %}
+
+<header class="bg-grey-light sticky filter drop-shadow-xl z-50">
+    <div class="container lg:relative">
+        <div class="py-5 lg:py-7 flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center text-white">
+            <div class="flex items-center">
+                <a href="{{ siteUrl }}" class="font-primary font-semibold uppercase text-4xl text-center text-white hover:text-yellow">
+                    <span class="content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h1>" tw-content-after="</h1>">{{ fullName }}</span>
+                </a>
+            </div>
+
+            {{ include('components/navigation/_main-menu') }}
+        </div>
+    </div>
+</header>

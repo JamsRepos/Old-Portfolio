@@ -1,0 +1,59 @@
+{% set index = index ?? null %}
+{% set image = image ?? null %}
+{% set title = title ?? '' %}
+{% set body = body ?? '' %}
+{% set date = date ?? null %}
+{% set languages = languages ?? null %}
+
+<div class="flex flex-col lg:flex-row gap-3 lg:gap-5" data-aos="fade-{{ index is odd ? 'left' : 'right' }}">
+    {% if image|length > 1 %}
+        <div class="hidden lg:block w-max lg:w-96 relative">
+            <div id="portfolio-{{ index }}">
+                {% for item in image %}
+                    <img class="lazyload rounded-3xl" data-src="{{ item.getUrl('portfolioCardImage') }}">
+                {% endfor %}
+            </div>
+
+            <div id="carousel-dots" class="absolute bottom-1 left-1/2 transform -translate-x-1/2">
+                {# Dots will populate here. #}
+            </div>
+        </div>
+        <img class="lazyload lg:hidden w-max lg:w-96 rounded-3xl" data-src="{{ image[0].getUrl('portfolioCardImage') }}">
+    {% else %}
+        <img class="lazyload w-max lg:w-96 rounded-3xl" data-src="{{ image[0].getUrl('portfolioCardImage') }}">
+    {% endif %}
+
+    <div class="project flex flex-col text-white font-secondary">
+        <h5 class="text-2xl font-semibold">
+            {{ title }}
+        </h5>
+
+        {% if date %}
+            <span class="mb-5 lg:mb-auto">
+                {{ date|date('F - Y') }}
+            </span>
+        {% endif %}
+
+        {% if body %}
+            <div class="text-xs lg:border-l-4 lg:border-yellow lg:pl-4">
+                {{ body }}
+            </div>
+        {% endif %}
+
+        {% if languages %}
+            <div class="flex flex-row gap-3 mt-3">
+                {% for language in languages %}
+                    <span class="bg-grey text-yellow text-xs uppercase rounded-3xl px-5 py-1">
+                        {{ language.title }}
+                    </span>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</div>
+
+{% if image|length > 1 %}
+    {% js %}
+        initialiseCarousel('#portfolio-{{ index }}');
+    {% endjs %}
+{% endif %}

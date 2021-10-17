@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f2146acb-9f63-4455-b09a-196eb45a967a # Globals
+handle: socialLinks
+instructions: 'Sets the social links across the site.'
+name: 'Social Links'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_sociallinks}}'
+  maxBlocks: '4'
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

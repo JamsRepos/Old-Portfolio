@@ -1,0 +1,363 @@
+field: 35ee7e17-f0b1-49d9-922e-931308ab99a2 # Page Hero
+fieldLayouts:
+  6b6e26fb-4112-4e61-8dcf-1a2237a8b1a4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 2aca6222-666c-4808-9040-7edb70adf348 # Show Portrait
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6cc1691c-5ab0-44a2-bc9b-875c4e8b03ce # Hero Title
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 12f9861d-3bfa-4229-baf2-56e678f793a1 # Hero Subtitle
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 34b8ab34-bc2c-40ac-9c67-2ab75223aac7 # Description
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 412f7c9b-03cc-44ee-9e3e-4e4ae24cde13 # Yellow CTA Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 94e35eaa-0387-4a84-ba12-051cab6d895e # White CTA Button
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  2aca6222-666c-4808-9040-7edb70adf348: # Show Portrait
+    columnSuffix: null
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: showPortrait
+    instructions: 'Decides whether the portrait photo should display or not.'
+    name: 'Show Portrait'
+    searchable: false
+    settings:
+      default: true
+      offLabel: 'No'
+      onLabel: 'Yes'
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  6cc1691c-5ab0-44a2-bc9b-875c4e8b03ce: # Hero Title
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heroTitle
+    instructions: 'Sets the title of the Page Hero.'
+    name: 'Hero Title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  12f9861d-3bfa-4229-baf2-56e678f793a1: # Hero Subtitle
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heroSubtitle
+    instructions: 'Sets the subtitle text of the Page Hero.'
+    name: 'Hero Subtitle'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  34b8ab34-bc2c-40ac-9c67-2ab75223aac7: # Description
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: 'Sets the description of the Page Hero.'
+    name: Description
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  94e35eaa-0387-4a84-ba12-051cab6d895e: # White CTA Button
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: whiteCtaButton
+    instructions: 'Sets the properties for the White CTA Button.'
+    name: 'White CTA Button'
+    searchable: false
+    settings:
+      allowCustomText: '1'
+      allowTarget: '1'
+      allowedLinkNames:
+        3: entry
+        6: custom
+      autoNoReferrer: '1'
+      defaultLinkName: entry
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        __assoc__:
+          -
+            - asset
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - category
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - entry
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - site
+            -
+              __assoc__:
+                -
+                  - sites
+                  - '*'
+          -
+            - user
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - custom
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - '1'
+                -
+                  - allowAliases
+                  - '1'
+          -
+            - email
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - tel
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - url
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: typedlinkfield\fields\LinkField
+  412f7c9b-03cc-44ee-9e3e-4e4ae24cde13: # Yellow CTA Button
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: yellowCtaButton
+    instructions: 'Sets the properties for the Yellow CTA Button.'
+    name: 'Yellow CTA Button'
+    searchable: false
+    settings:
+      allowCustomText: '1'
+      allowTarget: '1'
+      allowedLinkNames:
+        3: entry
+        6: custom
+      autoNoReferrer: '1'
+      defaultLinkName: entry
+      defaultText: ''
+      enableAriaLabel: ''
+      enableTitle: ''
+      typeSettings:
+        __assoc__:
+          -
+            - asset
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - category
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - entry
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - site
+            -
+              __assoc__:
+                -
+                  - sites
+                  - '*'
+          -
+            - user
+            -
+              __assoc__:
+                -
+                  - sources
+                  - '*'
+                -
+                  - allowCustomQuery
+                  - ''
+          -
+            - custom
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - '1'
+                -
+                  - allowAliases
+                  - '1'
+          -
+            - email
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - tel
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+          -
+            - url
+            -
+              __assoc__:
+                -
+                  - disableValidation
+                  - ''
+                -
+                  - allowAliases
+                  - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: typedlinkfield\fields\LinkField
+handle: pageHero
+name: 'Page Hero'
+sortOrder: 1
