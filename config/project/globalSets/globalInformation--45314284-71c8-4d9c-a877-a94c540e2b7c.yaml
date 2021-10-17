@@ -11,7 +11,16 @@ fieldLayouts:
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
-            width: 100
+            width: 25
+          -
+            fieldUid: 4b4e3804-b260-4820-91e4-5d26ac41ead3 # Date
+            instructions: ' '
+            label: 'Date of Birth'
+            required: ''
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 25
           -
             fieldUid: e2e175dc-940c-43a1-81e9-4c7f66b3abcb # Social Links
             instructions: null

@@ -1,3 +1,4 @@
+{% set age = globalInformation.date.diff(now).format('%y') ?? '23' %}
 {% set pageHero = entry.pageHero[0] ?? null %}
 {% set showPortrait = pageHero.showPortrait ?? false %}
 {% set heroTitle = pageHero.heroTitle ?? '' %}
@@ -29,7 +30,7 @@
 
                     {% if description %}
                         <span class="font-secondary mt-8">
-                            {{ description }}
+                            {{ description|replace('$AGE', age) }}
                         </span>
                     {% endif %}
 

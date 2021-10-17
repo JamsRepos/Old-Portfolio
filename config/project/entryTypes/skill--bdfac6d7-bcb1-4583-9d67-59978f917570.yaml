@@ -30,16 +30,7 @@ fieldLayouts:
             fieldUid: 932110f8-8b86-43c8-abbd-a61a6be0ef48 # Main Image
             instructions: ''
             label: ''
-            required: '1'
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            warning: null
-            width: 100
-          -
-            fieldUid: fa5256d4-7c25-4431-9df9-b2fd69bd85d6
-            instructions: null
-            label: null
-            required: false
+            required: ''
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
