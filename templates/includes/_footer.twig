@@ -16,7 +16,7 @@
                 <span>{{ socialLinks ? 'Follow me on' : 'Get in touch!' }}</span>
 
                 {% if socialLinks %}
-                    {% for icon in socialLinks %}
+                    {% for icon in socialLinks.all() %}
                         {{ _self.socialIcon(icon.socialLink, icon.type) }}
                     {% endfor %}
                 {% endif %}
