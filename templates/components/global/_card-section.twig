@@ -33,7 +33,7 @@
             {% for card in portfolioCardQuery.all() %}
                 {{ include('components/cards/_portfolio-card', {
                     index: loop.index,
-                    image: card.mainImage[0],
+                    image: card.mainImage,
                     title: card.title,
                     body: card.body,
                     date: card.date,

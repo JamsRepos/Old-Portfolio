@@ -12,7 +12,7 @@ settings:
     - image
   defaultUploadLocationSource: 'volume:a79dfb9e-c492-4af5-8730-f31193d0aa80' # General
   defaultUploadLocationSubpath: ''
-  limit: '1'
+  limit: ''
   localizeRelations: false
   previewMode: full
   restrictFiles: '1'
