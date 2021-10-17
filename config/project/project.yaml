@@ -1,8 +1,13 @@
-dateModified: 1634477750
+dateModified: 1634500206
 email:
-  fromEmail: lubricantjam@pm.me
+  fromEmail: noreply@jdf.gg
   fromName: JDF.GG
-  transportType: craft\mail\transportadapters\Sendmail
+  replyToEmail: null
+  template: null
+  transportSettings:
+    apiKey: $MAILJET_USERNAME
+    apiSecret: $MAILJET_PASSWORD
+  transportType: bertoost\mailjet\adapters\MailjetAdapter
 meta:
   __names__:
     2aca6222-666c-4808-9040-7edb70adf348: 'Show Portrait' # Show Portrait
@@ -361,11 +366,90 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.4.2
-  contact-form:
+  freeform:
+    edition: lite
+    enabled: true
+    licenseKey: P1NMPNP1X8J18SGDVEWZ2KB0
+    schemaVersion: 3.3.2
+    settings:
+      ajaxByDefault: true
+      alertNotificationRecipients: lubricantjam@pm.me
+      autoScrollToErrors: true
+      badgeType: all
+      blockedEmails: null
+      blockedEmailsError: 'Invalid Email Address'
+      blockedIpAddresses: null
+      blockedKeywords: null
+      blockedKeywordsError: 'Invalid Entry Data'
+      clientDigestFrequency: 1
+      clientDigestRecipients: ''
+      customErrorMessage: null
+      customHoneypotName: null
+      defaultTemplates: true
+      defaultView: dashboard
+      digestFrequency: 1
+      digestOnlyOnProduction: false
+      digestRecipients: ''
+      displayFeed: true
+      emailTemplateDirectory: null
+      emailTemplateStorage: db
+      fieldDisplayOrder: name
+      fillWithGet: false
+      footerScripts: false
+      formFieldShowOnlyAllowedForms: false
+      formSubmitDisable: true
+      formSubmitExpiration: null
+      formTemplateDirectory: null
+      formattingTemplate: tailwind.html
+      freeformHoneypot: true
+      freeformHoneypotEnhancement: true
+      hideBannerDemo: false
+      hideBannerOldFreeform: false
+      minimumSubmitTime: null
+      pluginName: ''
+      purgableSpamAgeInDays: null
+      purgableSubmissionAgeInDays: null
+      purgableUnfinalizedAssetAgeInMinutes: 180
+      recaptchaBehaviour: display_error
+      recaptchaEnabled: false
+      recaptchaErrorMessage: 'Please verify that you are not a robot.'
+      recaptchaKey: null
+      recaptchaLazyLoad: false
+      recaptchaMinScore: 0.5
+      recaptchaSecret: null
+      recaptchaSize: normal
+      recaptchaTheme: light
+      recaptchaType: v2_checkbox
+      rememberPageSubmitOrder: true
+      removeNewlines: false
+      renderFormHtmlInCpViews: true
+      salesforce_client_id: null
+      salesforce_client_secret: null
+      salesforce_password: null
+      salesforce_username: null
+      scriptInsertLocation: footer
+      scriptInsertType: pointers
+      sessionEntryMaxCount: 50
+      sessionEntryTTL: 10800
+      showErrorsForBlockedEmails: false
+      showErrorsForBlockedKeywords: false
+      showTutorial: true
+      spamFolderEnabled: true
+      spamProtectionBehaviour: simulate_success
+      submissionThrottlingCount: null
+      submissionThrottlingTimeFrame: null
+      twigInHtml: true
+      twigInHtmlIsolatedMode: true
+      updateSearchIndexes: true
+  mailjet:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
   matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  minify:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0

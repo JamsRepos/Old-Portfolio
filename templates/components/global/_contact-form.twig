@@ -1,0 +1,21 @@
+<div class="container bg-grey-light p-10 my-10 rounded-3xl">
+    <div class="flex flex-col mb-6 text-center">
+        <h3 class="text-white font-secondary text-3xl font-semibold uppercase
+        content-before content-after before:lowercase after:lowercase before:text-yellow after:text-yellow before:font-normal after:font-normal" tw-content-before="<h3>" tw-content-after="</h3>">Let's Work Together</h3>
+
+        <span class="text-yellow font-secondary uppercase">
+            I will reach out to you as soon as possible
+        </span>
+    </div>
+
+    <div class="w-full lg:w-1/2 mx-auto">
+        {{ craft.freeform.form("contactForm", {
+            id: "contact",
+            labelClass: "hidden",
+            rowClass: "mb-0 justify-center flex-col lg:flex-row gap-5 lg:gap-0",
+            inputClass: "rounded-none lg:!rounded-r-none lg:!rounded-l-lg py-3 px-5 w-full lg:w-96 border border-white",
+            columnClass: " !mb-0 lg:!w-max !text-center",
+            submitClass: "py-3 px-5 bg-yellow hover:bg-transparent text-grey hover:text-white transition border border-yellow left-0 rounded-none lg:!rounded-l-none lg:!rounded-r-lg mx-auto mb-4",
+        }).render() }}
+    </div>
+</div>
