@@ -3,6 +3,8 @@
 
 cd /var/www/jdf.gg
 
+rm -Rv !(.env|*.tar.gz)
+
 tar -xvf archive-$(date -I).tar.gz
 
 cd /var/www/
