@@ -3,7 +3,8 @@
 
 cd /var/www/jdf.gg
 
-rm -Rv !(.env|*.tar.gz|*.sh)
+shopt -s extglob
+rm -rf !(.env|*.tar.gz|*.sh)
 
 tar -xvf archive-$(date -I).tar.gz
 
