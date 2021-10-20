@@ -16,11 +16,11 @@ jobs:
       run: composer install && npm install && npm run production
 
     - name: 📶 Upload Files
-      uses: wlixcc/SFTP-Deploy-Action@v1.0
+      uses:  LubricantJam/SFTP-Deploy-Action@v1.0
       with:
         username: 'root'
         server: '${{ secrets.SERVER_IP }}'
-        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        ssh_password: ${{ secrets.SSH_PASSWORD }}
         port: '${{ secrets.SERVER_PORT }}'
         local_path: './build/*'
         remote_path: '/var/www/jdf.gg'
