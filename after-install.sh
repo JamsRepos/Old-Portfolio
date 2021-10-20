@@ -3,7 +3,7 @@
 
 cd /var/www/jdf.gg
 
-rm -Rv !(.env|*.tar.gz|after-install.sh)
+rm -Rv !(.env|*.tar.gz|*.sh)
 
 tar -xvf archive-$(date -I).tar.gz
 
