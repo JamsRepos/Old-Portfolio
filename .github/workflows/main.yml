@@ -16,7 +16,7 @@ jobs:
       run: composer install && npm install && npm run production
 
     - name: 📶 Upload Files
-      uses:  LubricantJam/SFTP-Deploy-Action@bc08152dac3a71bafc337df982c98c80a4d038bf
+      uses:  LubricantJam/SFTP-Deploy-Action@feature/compression
       with:
         username: 'root'
         server: '${{ secrets.SERVER_IP }}'
@@ -24,4 +24,4 @@ jobs:
         port: '${{ secrets.SERVER_PORT }}'
         remote_path: '/var/www/jdf.gg'
         args: '-o ConnectTimeout=5'
-        compression: true
+        compress: true
