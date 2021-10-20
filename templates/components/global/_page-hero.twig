@@ -2,8 +2,8 @@
 {% set pageHero = entry.pageHero[0] ?? null %}
 {% set showPortrait = pageHero.showPortrait ?? false %}
 {% set heroTitle = pageHero.heroTitle ?? '' %}
-{% set heroSubtitle = pageHero.heroSubtitle ?? '' %}
-{% set description = pageHero.description ?? '' %}
+{% set heroSubtitle = pageHero.heroSubtitle ?? globalInformation.blurb ?? '' %}
+{% set description = pageHero.description ?? globalInformation.aboutMe ?? '' %}
 {% set yellowCta = pageHero.yellowCtaButton ?? '' %}
 {% set whiteCta = pageHero.whiteCtaButton ?? '' %}
 

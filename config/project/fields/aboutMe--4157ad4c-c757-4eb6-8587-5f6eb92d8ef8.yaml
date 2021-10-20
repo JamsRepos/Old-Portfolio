@@ -1,0 +1,19 @@
+columnSuffix: tvnsfjxy
+contentColumnType: text
+fieldGroup: f2146acb-9f63-4455-b09a-196eb45a967a # Globals
+handle: aboutMe
+instructions: 'Sets the generic information about me.'
+name: 'About Me'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

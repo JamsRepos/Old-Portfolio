@@ -1,4 +1,4 @@
-dateModified: 1634500206
+dateModified: 1634769993
 email:
   fromEmail: noreply@jdf.gg
   fromName: JDF.GG
@@ -12,6 +12,7 @@ meta:
   __names__:
     2aca6222-666c-4808-9040-7edb70adf348: 'Show Portrait' # Show Portrait
     2df9990f-fd03-4062-a94e-54bc62219770: Skills # Skills
+    2e626468-052d-451c-b098-dd2c9668ad99: Blurb # Blurb
     2ec415fb-ec08-4367-a878-9b3c2a90d9a2: 'Full Name' # Full Name
     4b4e3804-b260-4820-91e4-5d26ac41ead3: Date # Date
     4dbc622d-3fcb-48d2-85bc-004f013c1daf: Homepage # Homepage
@@ -32,6 +33,7 @@ meta:
     805b1819-a87b-4382-844b-2c1016f34c01: Skills # Skills
     0899acf6-a4db-492e-807f-6f3e91528984: Portfolio # Portfolio
     972f7785-d4d7-4b5e-84af-8254485fa48e: LinkedIn # LinkedIn
+    4157ad4c-c757-4eb6-8587-5f6eb92d8ef8: 'About Me' # About Me
     6094d928-e987-4f6f-8376-7b6d4ce4c990: 'Main Menu' # Main Menu
     56566f96-5328-4853-a18c-649e64551808: 'Portfolio Card Image' # Portfolio Card Image
     074357a9-3568-4cb1-adc4-f07f5abb80d5: Portfolio # Portfolio
@@ -51,6 +53,7 @@ meta:
     e53c970f-ed56-47e1-96a0-3dda647ec7d9: JDF.GG # JDF.GG
     e66dd847-b3c7-4e76-a8af-e6f385bd3084: 'Related Entries' # Related Entries
     e3111181-4916-45ab-a207-e957eb08d895: JDF.GG # JDF.GG
+    eb69c6ee-88c1-4d59-8921-4d7089fcb384: 'Site Tags' # Site Tags
     ece0267b-3623-42c1-b4e6-98569850f83d: Project # Project
     f2146acb-9f63-4455-b09a-196eb45a967a: Globals # Globals
 plugins:

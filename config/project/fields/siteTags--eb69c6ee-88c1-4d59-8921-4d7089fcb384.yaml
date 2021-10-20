@@ -1,0 +1,23 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: f2146acb-9f63-4455-b09a-196eb45a967a # Globals
+handle: siteTags
+instructions: 'Sets the site tags in the meta.'
+name: 'Site Tags'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  limit: null
+  localizeRelations: false
+  selectionLabel: ''
+  showSiteMenu: false
+  source: 'taggroup:8ab07e06-3e07-42a8-8ff2-6e337f13403e' # Languages
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Tags

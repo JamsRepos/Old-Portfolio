@@ -22,6 +22,33 @@ fieldLayouts:
             warning: null
             width: 25
           -
+            fieldUid: 2e626468-052d-451c-b098-dd2c9668ad99 # Blurb
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 4157ad4c-c757-4eb6-8587-5f6eb92d8ef8 # About Me
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: eb69c6ee-88c1-4d59-8921-4d7089fcb384 # Site Tags
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
             fieldUid: e2e175dc-940c-43a1-81e9-4c7f66b3abcb # Social Links
             instructions: null
             label: null

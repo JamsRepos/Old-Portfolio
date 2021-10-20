@@ -3,13 +3,24 @@
     <html lang="en-GB">
         <head>
             <title>{% if title is defined %}{{ title }} - {% endif %}{{ siteName }}</title>
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta charset="utf-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta name="referrer" content="origin-when-cross-origin" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
             <link rel="stylesheet" href="{{ siteUrl('assets/css/app.css') }}" type="text/css" />
+            {# Meta Data #}
+            <meta name="title" content="{{ globalInformation.fullName ?? '' }}">
+            <meta name="description" content="{{ globalInformation.blurb ?? '' }}">
+            <meta name="keywords" content="{{ globalInformation.siteTags|join(', ') }}">
+            <meta name="author" content="{{ globalInformation.fullName ?? '' }}">
+            <meta name="theme-color" content="#EBCB8B">
+            {# Favicon #}
+            <link rel="apple-touch-icon" sizes="180x180" href="{{ siteUrl('assets/images/favicon/apple-touch-icon.png') }}">
+            <link rel="icon" type="image/png" sizes="32x32" href="{{ siteUrl('assets/images/favicon/favicon-32x32.png') }}">
+            <link rel="icon" type="image/png" sizes="16x16" href="{{ siteUrl('assets/images/favicon/favicon-16x16.png') }}">
+            <link rel="manifest" href="{{ siteUrl('assets/images/favicon/site.webmanifest') }}">
         </head>
 
         <body class="ltr flex flex-col justify-between bg-grey">
