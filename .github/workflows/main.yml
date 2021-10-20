@@ -24,3 +24,4 @@ jobs:
         port: '${{ secrets.SERVER_PORT }}'
         remote_path: '/var/www/jdf.gg'
         args: '-o ConnectTimeout=5'
+        compression: true
