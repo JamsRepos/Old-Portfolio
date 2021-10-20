@@ -5,7 +5,7 @@ on:
       - main
 name: 🚀 Website Deployment
 jobs:
-  web-deploy:
+  deploy_job:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
@@ -16,9 +16,11 @@ jobs:
       run: composer install && npm install && npm run production
 
     - name: 📶 Upload Files
-      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      uses: wlixcc/SFTP-Deploy-Action@v1.0
       with:
-        server: 89.34.96.142
-        username: thenexus
-        server-dir: /jdf.gg/
-        password: ${{ secrets.FTP_PASSWORD }}
+        username: 'root'
+        server: '${{ secrets.SERVER_IP }}'
+        ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        local_path: './build/*'
+        remote_path: '/var/www/jdf.gg'
+        args: '-o ConnectTimeout=5'
