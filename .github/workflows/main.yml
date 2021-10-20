@@ -21,6 +21,7 @@ jobs:
         username: 'root'
         server: '${{ secrets.SERVER_IP }}'
         ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
+        port: '${{ secrets.SERVER_PORT }}'
         local_path: './build/*'
         remote_path: '/var/www/jdf.gg'
         args: '-o ConnectTimeout=5'
