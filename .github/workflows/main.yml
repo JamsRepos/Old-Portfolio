@@ -16,7 +16,7 @@ jobs:
       run: composer install && npm install && npm run production
 
     - name: 📶 Upload Files
-      uses:  LubricantJam/SFTP-Deploy-Action@feature/compression
+      uses:  LubricantJam/SFTP-Deploy-Action@v2.0
       with:
         username: 'root'
         server: '${{ secrets.SERVER_IP }}'
@@ -25,3 +25,4 @@ jobs:
         remote_path: '/var/www/jdf.gg'
         args: '-o ConnectTimeout=5'
         compress: true
+        ssh_command: 'tar -xvf archive-$(date -I).tar.gz && php craft up --interactive=0'
