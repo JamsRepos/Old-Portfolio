@@ -16,7 +16,7 @@ jobs:
       run: composer install && npm install && npm run production
 
     - name: 📶 Upload Files
-      uses:  LubricantJam/SFTP-Deploy-Action@feature/compression
+      uses:  LubricantJam/SFTP-Deploy-Action@bc08152dac3a71bafc337df982c98c80a4d038bf
       with:
         username: 'root'
         server: '${{ secrets.SERVER_IP }}'
