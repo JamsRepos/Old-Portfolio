@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: 👨‍💻 Get Latest Code
-      uses: actions/checkout@v2.1
+      uses: actions/checkout@v2
 
     - name: 🔨 Build Stage
       run: composer install && npm install && npm run production
 
     - name: 📶 Upload Files
-      uses: LubricantJam/SFTP-Deploy-Action@feature/compression
+      uses: LubricantJam/SFTP-Deploy-Action@v2.1
       with:
         username: 'root'
         server: '${{ secrets.SERVER_IP }}'
