@@ -41,7 +41,7 @@
         {% endif %}
 
         {% if languages %}
-            <div class="flex flex-row gap-3 mt-3">
+            <div class="flex flex-row flex-wrap gap-3 mt-3">
                 {% for language in languages.all() %}
                     <span class="bg-grey text-yellow text-xs uppercase rounded-3xl px-5 py-1">
                         {{ language.title }}
