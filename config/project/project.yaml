@@ -1,4 +1,4 @@
-dateModified: 1634769993
+dateModified: 1634841660
 email:
   fromEmail: noreply@jdf.gg
   fromName: JDF.GG
@@ -469,6 +469,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  upper:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.1
 system:
   edition: solo
   live: true

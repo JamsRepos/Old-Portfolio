@@ -4,6 +4,7 @@
     "craftcms/cms": "^3.6.4",
     "craftcms/redactor": "2.8.8",
     "nystudio107/craft-minify": "1.2.10",
+    "ostark/upper": "1.9.0",
     "percipioglobal/craft-colour-swatches": "1.4.2",
     "sebastianlenz/linkfield": "1.0.25",
     "solspace/craft-freeform": "3.11.11.1",
