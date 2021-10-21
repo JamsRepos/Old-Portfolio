@@ -25,4 +25,4 @@ jobs:
         remote_path: '/var/www/jdf.gg'
         args: '-o ConnectTimeout=5'
         compress: true
-        ssh_command: 'bash after-install.sh'
+        #ssh_command: 'bash after-install.sh'
